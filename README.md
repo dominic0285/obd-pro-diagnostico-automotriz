@@ -93,7 +93,6 @@ eas build -p android --profile preview
 
 Al terminar (10-20 min) EAS muestra un **enlace y un código QR** para descargar el `.apk`; ábrelo en el teléfono e instálalo (permite "orígenes desconocidos").
 
-> Si `eas build` da error de permisos, borra en `app.json` las claves `"owner"` y `"extra.eas.projectId"` (pertenecen a la cuenta del autor) y vuelve a ejecutar `eas build:configure`.
 
 | Opción | Comando | Resultado |
 |---|---|---|
@@ -103,8 +102,10 @@ Al terminar (10-20 min) EAS muestra un **enlace y un código QR** para descargar
 
 > OBD Pro usa Bluetooth LE nativo (`react-native-ble-plx`), así que **no funciona en Expo Go**: hay que instalar el APK.
 
-## 👤 Autor
+## Autor
 
-**Dominic De Freitas** — [GitHub](https://github.com/dominic0285) · [LinkedIn](https://www.linkedin.com/in/dominic-de-freitas-07102828a/)
+**Dominic De Freitas** — Ingeniero en Informática (UGMA). Desarrollo aplicaciones móviles y web con React Native, TypeScript, Node.js y Python, y busco mi primer puesto como desarrollador junior remoto.
+
+[Perfil de GitHub](https://github.com/dominic0285) · [LinkedIn](https://www.linkedin.com/in/dominic-de-freitas-07102828a/) · dominicdefreitasfd@gmail.com
 
 Licencia [MIT](LICENSE).
