@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "OBD Pro",
+    "slug": "obdpro",
+    "version": "3.12.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.obdpro.scanner",
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_SCAN",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "versionCode": 33
+    },
+    "plugins": [
+      "./plugins/withBlePermissions",
+      "expo-router"
+    ],
+    "scheme": "obdpro",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2e8b36f9-c4f3-4c7d-aaf9-476acaf62a11"
+      }
+    },
+    "owner": "dominic0285"
+  }
+}
